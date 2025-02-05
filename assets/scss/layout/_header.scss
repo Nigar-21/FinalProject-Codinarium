@@ -1,0 +1,189 @@
+header{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06090F; 
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;    .container{
+        max-width: 80%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        .logo{
+            max-width: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            overflow: hidden;
+            @include tablet(){
+              max-width: 40%;
+            }
+            @include mobile(){
+                
+            }
+            figure{
+                max-width: 100%;
+                max-height: 100%;
+                overflow: hidden;
+                img{
+                    max-width: 100%;
+                max-height: 100%;
+                overflow: hidden;
+                }
+            }
+        }
+        nav{
+            max-width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            overflow: hidden;
+            padding: 10px;
+            @include tablet(){
+                display: none;
+            }
+            @include mobile(){
+                display: none;
+            }
+            ul{
+                max-width: 100%;
+                max-height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                overflow: hidden;
+                gap: 40px;
+                margin-top: 5px;
+                li{
+                    max-width: 100%;
+                   a{
+                    font-size: 16px;
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 1.2;
+                    color: #fff;
+                    &:hover{
+                        color: #29B6F6;
+                        transition: 2s;
+                    }
+                   }
+                }
+            }
+           
+        }
+        .sidediv{
+            max-width: 20%;
+            display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                overflow: hidden;
+                gap: 30px;
+                span{
+                    padding: 10px;
+                    border-radius: 10px;
+                    font-size: 14px;
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 1.2;
+                    color: #fff;
+                    background-color:#29B6F6;
+                   a{
+                    font-size: 14px;
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 1.2;
+                    color: #fff;
+                   }
+                   i{
+                    color: #fff;
+
+                   }
+                    @include tablet(){
+                        display: none;
+                    }
+                    @include mobile(){
+                        display: none;
+                    }
+                    &:hover{
+                        background-color:#FF5858;
+                        transition: 2s;
+                    }
+                }
+                .menu{
+                    display: none;
+                    @include tablet(){
+                        display: block;
+                    }
+                    @include mobile(){
+                        display: block;
+                    }
+                    &:hover{
+                        .hamburger_dropt{
+                            display: block;
+                            transition: 2s;
+                            cursor: pointer;
+                        }
+                    }
+                    button{
+                        border: none;
+                        z-index: 99;
+                        background-color: transparent;
+                        color: #fff;
+                        display: none;
+                        @include tablet(){
+                            display: block;
+                        }
+                        @include mobile(){
+                            display:block;
+                        }
+
+                    }
+                    .hamburger_dropt{
+                        position: absolute;
+                        left: 0;
+                        z-index: 99;
+                        margin-top: 0;
+                        width: 100%;
+                        padding: 10px;
+                        background-color: #06090F !important;
+                        display: none;
+                        ul{
+                            max-width: 100%;
+                            max-height: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            flex-direction: column;
+                            overflow: hidden;
+                            gap: 30px;
+                            margin-top: 5px;
+                            li{
+                                max-width: 100%;
+                               a{
+                                font-size: 16px;
+                                font-family: "Arima", system-ui;
+                                font-optical-sizing: auto;
+                                font-weight: 700;
+                                font-style: normal;
+                                line-height: 1.2;
+                                color: #fff !important;
+                                &:hover{
+                                    color: #29B6F6;
+                                    transition: 2s;
+                                }
+                               }
+                    }
+                }
+                 
+                }}}
+        }
+    }

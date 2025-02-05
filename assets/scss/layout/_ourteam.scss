@@ -1,0 +1,232 @@
+#ourteam{
+    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://live.themewild.com/moplay/assets/img/breadcrumb/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .ourteam_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    h3{
+               font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+    }
+    p{
+               font-size: 20px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #29B6F6;
+                a{
+                    color: #FFFFFF;
+                    &:hover{
+                        color: #29B6F6;
+                    }
+ 
+                }
+    }
+    }
+}
+#ourexperts{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #06090F;
+    .main_experts{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        .expert_head{
+            max-width: 100%;
+            max-height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            @include tablet(){
+                max-width: 100%;
+            }
+            @include mobile(){
+                max-width: 100%;
+
+            }
+            .one{
+                font-size: 20px;
+                color: #29B6F6;
+                font-weight: 600;
+                line-height: 1.2;
+                letter-spacing: 2px;
+            }
+            h2{
+                font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                @include tablet(){
+                  font-size: 20px;
+                }
+                @include mobile(){
+                  font-size: 15px;
+                }
+            }
+            .two{
+                font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                letter-spacing: 3px;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #29B6F6;
+                @include tablet(){
+                    font-size: 20px;
+                  }
+                  @include mobile(){
+                    font-size: 15px;
+                  }
+
+            }
+        }
+        #experts{
+        max-width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px; 
+        @include tablet(){
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+          }
+          @include mobile(){
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+          }
+        .expert_box{
+            max-width: 20%;
+            border: 1px solid #29B6F6;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 20px;
+            @include tablet(){
+                max-width: 100%;
+                max-height: 100%;
+            }
+            @include mobile(){
+                max-width: 100%;
+                max-height: 100%;
+            }
+            figure{
+                max-width: 100%;
+                max-height: 100%;
+                overflow: hidden;
+                border-radius: 20px;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: transform 0.4s ease;
+                }
+
+                img{
+                max-width: 100%;
+                max-height: 100%; 
+                overflow: hidden;
+                }
+            }
+            .expert_text{
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: #06090F;
+                padding: 20px;
+                border-radius: 30px;
+              margin-top: -40px;
+                h3{
+                    font-size: 15px;
+                     font-family: "Arima", system-ui;
+                     font-optical-sizing: auto;
+                     font-weight: 700;
+                     font-style: normal;
+                     line-height: 1.2;
+                     color: #FFFFFF;
+                     text-transform: uppercase;
+         }
+         p{
+                    font-size: 15px;
+                     font-family: "Arima", system-ui;
+                     font-optical-sizing: auto;
+                     font-weight: 700;
+                     font-style: normal;
+                     line-height: 1.2;
+                     color: #FFFFFF;
+            }}
+            .icon{
+                max-width: 100%;
+                overflow: hidden;
+                display: flex;
+                gap: 15px;
+                @include tablet(){
+                  display: flex;
+                  flex-wrap: wrap;
+                }
+                @include mobile(){
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                a{
+                    width: 40px;
+                    height: 40px;
+                    background-color: #29B6F6;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+        }
+        }
+    }
+}
+

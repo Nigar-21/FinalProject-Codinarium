@@ -1,0 +1,240 @@
+#blog{
+    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://live.themewild.com/moplay/assets/img/breadcrumb/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .blog_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    h3{
+               font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+    }
+    p{
+               font-size: 20px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #29B6F6;
+                a{
+                    color: #FFFFFF;
+                    &:hover{
+                        color: #29B6F6;
+                    }
+ 
+                }
+    }
+    }
+}
+#fag_page{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06090F;
+    .container{
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        @include tablet (){
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @include mobile(){
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .page_left{
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            @include tablet (){
+                width: 100%;
+
+            }
+            @include mobile(){
+                width: 100%;
+            }
+            .one{
+                font-size: 20px;
+                color: #29B6F6;
+                font-weight: 600;
+                line-height: 1.2;
+                letter-spacing: 2px;
+            }
+            h2{
+                font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                @include tablet(){
+                  font-size: 20px;
+                }
+                @include mobile(){
+                  font-size: 15px;
+                }
+            }
+            .two{
+                font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                letter-spacing: 3px;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #29B6F6;
+                @include tablet(){
+                    font-size: 20px;
+                  }
+                  @include mobile(){
+                    font-size: 15px;
+                  }
+
+            }
+            p{
+                font-size: 15px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #757f95;
+            }
+            button{
+                width: 40%;
+                padding: 15px;
+                background-color: #29B6F6;
+                border: none;
+                border-radius: 10px;
+                font-size: 17px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+            }
+        }
+        .page_right{
+            width: 45%;
+            gap: 20px;
+            @include tablet (){
+                width: 100%;
+
+            }
+            @include mobile(){
+                width: 100%;
+            }
+            .accordion {
+                width: 100%;
+                max-height: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                overflow: hidden;
+                .accordion-item {
+                    width: 100%;
+                    transition: none;
+                  background-color: #1b1b1d;
+                  margin: 10px 0;
+                  border-radius: 8px;
+                  overflow: hidden;
+              
+                  .accordion-header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 15px;
+                    overflow: hidden;
+                    cursor: pointer;
+                    color: #00bcd4;
+                    font-size: 15px;
+                    border-bottom: 1px solid #29B6F6;
+                    background-color: #242428;
+                   .title{
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 1.2;
+                    font-size: 20px;
+                    color: #29B6F6;
+                    gap: 20px;
+            @include tablet (){
+              font-size: 15px;
+
+            }
+            @include mobile(){
+                font-size: 10px;
+            }
+                   }
+                    .icon {
+                      background-color: #00bcd4;
+                      color: #fff;
+                      border-radius: 50%;
+                      padding: 10px 15px;
+                      font-size: 12px;
+                      
+                    }
+              
+                    .toggle-icon {
+                      transition: transform 0.3s ease;
+                    }
+                  }
+              
+                  .accordion-content {
+                    display: none;
+                    padding: 15px;
+                    color: #b0b0b0;
+                    font-size: 17px;
+                    background-color: #2e2e32;
+                    border-top: 1px solid #38383d;
+                    width: 100%;
+                    height: auto;
+                    transition: none;
+                  }
+              
+                  &.active .accordion-content {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                  }
+              
+                  &.active .toggle-icon {
+                    transform: rotate(180deg);
+                  }
+                }
+              }
+              
+        }
+    }
+}

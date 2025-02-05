@@ -1,0 +1,559 @@
+{
+  "mymovies": [
+    {
+      "id": 1,
+      "title": "Avatar 2",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/06.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Mission:Imposible",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "rating": 9.3,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/07.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Loki",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9.2,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Blue Beetle",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.9,
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/10.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Star Trec:Picard",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": [
+        "Action",
+        "Drama"
+      ],
+      "rating": 9,
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s3.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Transformers rise of ...",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/11.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Fate: The Winx Saga",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "rating": 9.3,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "How to train ...",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9.2,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/13.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Angry Birds 2",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.9,
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/14.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Lockwood and Co",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": [
+        "Action",
+        "Crime"
+      ],
+      "rating": 9,
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Ghost Rider",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/01.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Iron Man",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "rating": 9.3,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/02.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Oblivion",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9.2,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/03.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Tron",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.9,
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/04.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Flash",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": [
+        "Action",
+        "Crime"
+      ],
+      "rating": 9,
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/05.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Frozen 2",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/15.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Kung Fu Panda 3",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "rating": 9.3,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/16.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Hotel Translvania",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9.2,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/17.jpg"
+    },
+    {
+      "id": 19,
+      "title": "John Wick:Chapter 4",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.9,
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/18.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Jumanji",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": [
+        "Action",
+        "Crime"
+      ],
+      "rating": 9,
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/19.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Game of Thrones",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s2.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Star Trek:Picard",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "rating": 9.3,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s3.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Vikings: Valhalla",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9.2,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s4.jpg"
+    },
+    {
+      "id": 24,
+      "title": "House of The Dragon",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.9,
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s5.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Stranger Things",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": [
+        "Action",
+        "Crime"
+      ],
+      "rating": 9,
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s8.jpg"
+    },
+    {
+      "id": 26,
+      "title": "The Witcher",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "https://live.themewild.com/moplay/assets/img/movie/s9.jpg"
+    }
+  ],
+  "experts": [
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/01.jpg",
+      "name": "Angela Vigil",
+      "profession": "Engineer"
+    },
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/02.jpg",
+      "name": "Frank Mithchell",
+      "profession": "Engineer"
+    },
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/03.jpg",
+      "name": "Susan Lunsford",
+      "profession": "Engineer"
+    },
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/04.jpg",
+      "name": "Dennis Fruit",
+      "profession": "Engineer"
+    },
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/01.jpg",
+      "name": "Angela Vigil",
+      "profession": "Engineer"
+    },
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/02.jpg",
+      "name": "Frank Mithchell",
+      "profession": "Engineer"
+    },
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/03.jpg",
+      "name": "Susan Lunsford",
+      "profession": "Engineer"
+    },
+    {
+      "image": "https://live.themewild.com/moplay/assets/img/team/04.jpg",
+      "name": "Dennis Fruit",
+      "profession": "Engineer"
+    }
+  ],
+  "myblog": [
+    {
+      "id": 1,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/01.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 2,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/02.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 3,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/03.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 4,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/01.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 5,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/02.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 6,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/03.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 7,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/01.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 8,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/02.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    },
+    {
+      "id": 9,
+      "author": "By Alicia Davis",
+      "title": "There are many variations passage fact that suffered available",
+      "image": "https://live.themewild.com/moplay/assets/img/blog/03.jpg",
+      "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences the majority have suffered alteration that are extremely painful."
+    }
+  ],
+  "comments": [
+    {
+      "id": "98f9",
+      "name": "Leyla",
+      "email": "leyla@example.com",
+      "message": "Bu, mənim rəyimdir.",
+      "date": "2024-11-02",
+      "likes": 5,
+      "dislikes": 2,
+      "userReacted": false,
+      "replies": [
+        {
+          "id": "2a8b",
+          "name": "Ali",
+          "message": "Bu rəyə cavabdır.",
+          "date": "2024-11-02"
+        }
+      ]
+    },
+    {
+      "id": "12a4",
+      "name": "Farid",
+      "email": "farid@example.com",
+      "message": "Çox gözəl izah etdiniz!",
+      "date": "2024-11-01",
+      "likes": 3,
+      "dislikes": 0,
+      "userReacted": false,
+      "replies": []
+    },
+    {
+      "id": "34ef",
+      "name": "Nigar",
+      "email": "nigar@example.com",
+      "message": "Faydalı məlumat üçün təşəkkürlər.",
+      "date": "2024-10-30",
+      "likes": 0,
+      "dislikes": 0,
+      "userReacted": false,
+      "replies": []
+    },
+    {
+      "id": "b67c",
+      "name": "Jale",
+      "email": "jaleislam17@gmail.com",
+      "message": "klhlkhlkhlk",
+      "date": "2024-11-02",
+      "likes": 0,
+      "dislikes": 0,
+      "userReacted": false,
+      "replies": []
+    },
+    {
+      "id": "831e",
+      "name": ".lmlkl",
+      "email": "lihil",
+      "message": "lihio",
+      "date": "2024-11-02",
+      "likes": 0,
+      "dislikes": 0,
+      "userReacted": false,
+      "replies": []
+    },
+    {
+      "id": "0573",
+      "name": "Jale",
+      "email": "jaleislam17@gmail.com",
+      "message": "l'k'l''",
+      "date": "2024-11-02"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "subject": "Hello",
+      "message": "This is a test message."
+    },
+    {
+      "id": "2",
+      "name": "Jale",
+      "email": "jaleislam17@gmail.com",
+      "subject": "muellim",
+      "message": "lkjllkjhl"
+    },
+    {
+      "id": "98f9",
+      "name": "Leyla",
+      "email": "K'rimova",
+      "subject": "muellim",
+      "message": "hkjgkhg"
+    },
+    {
+      "id": "52d9",
+      "name": "Jale",
+      "email": "jaleislam17@gmail.com",
+      "subject": "muellim",
+      "message": "mn,mn,mn,mbn,m"
+    },
+    {
+      "id": "f4c2",
+      "name": "Jale",
+      "email": "jaleislam17@gmail.com",
+      "subject": "muellim",
+      "message": "jgkhghj"
+    },
+    {
+      "id": "6cc1",
+      "name": "Jale",
+      "email": "jaleislam17@gmail.com",
+      "subject": "muellim",
+      "message": "salam"
+    }
+  ]
+}

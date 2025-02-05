@@ -1,0 +1,150 @@
+footer{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #06090F; 
+
+    .container{
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        @include tablet(){
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @include mobile(){
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .first,.second,.three{
+            max-width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            @include tablet(){
+               max-width: 100%;
+            }
+            @include mobile(){
+                max-width: 100%;
+
+            }
+            h3{
+                font-size: 17px;
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 1.2;
+                    color: #fff;
+            }
+        }
+        .first{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            figure{
+                max-width: 100%;
+                max-height: 100%;
+                overflow: hidden;
+                img{
+                    max-width: 100%;
+                    max-height: 100%;
+                    overflow: hidden; 
+                }
+            }
+            p{
+                font-size: 20px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 1.2;
+                color: #fff;
+                &:hover{
+                    color: #29B6F6;
+                    transition: 2s;
+                }
+            }
+        }
+        .three{
+            p{
+                font-size: 16px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 1.2;
+                color: #fff;
+            }
+            form{
+                display: flex;
+            flex-direction: column;
+            gap: 30px;
+            input{
+                padding: 10px;
+                border: 1px solid #757f95;
+                background-color: #06090F;
+                border-radius: 10px;
+                &::placeholder{
+                    font-size: 16px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 1.2;
+                color: #757f95;
+                }
+            }
+            button{
+                padding: 10px;
+                border: none;
+                background-color: #29B6F6;
+                border-radius: 10px;
+                font-size: 16px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 1.2;
+                color: #fff;
+               
+                    &:hover{
+                        background-color:#FF5858;
+                        transition: 2s;
+                    }
+            }
+            }
+        }
+        .second{
+            ul{
+                display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            li{
+                i{
+                    color: #29B6F6;
+                }
+                a{
+                    font-size: 16px;
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 500;
+                    font-style: normal;
+                    line-height: 1.2;
+                    color: #fff;
+                    &:hover{
+                        color: #29B6F6;
+                        transition: 2s;
+                    }
+                }
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/scss/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Prociono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+         <div class="logo">
+             <figure>
+                 <a href="./index.html">
+                     <img src="https://live.themewild.com/moplay/assets/img/logo/logo.png" alt="">
+                 </a>
+             </figure>
+         </div>
+         <nav>
+             <ul>
+                 <li><a href="./index.html">Home</a></li>
+                 <li><a href="./about.html">About</a></li>
+                 <li><a href="./movies.html">Movies</a></li>
+                 <li><a href="./blog.html">Blog</a></li>
+                 <li><a href="./ourteam.html">Ourteam</a></li>
+                 <li><a href="./contact.html">Contact</a></li>
+                 <li><a href="./fag.html">Fag</a></li>
+             </ul>
+         </nav>
+         <div class="sidediv">
+             <span><a href=""><i class="fa-solid fa-right-to-bracket"></i> Sign In</a></span>
+             <div class="menu">
+                 <button onclick="toggleMenu()" aria-label="Menyu"><i class="fa-solid fa-bars"></i></button>
+                 <div class="hamburger_dropt">
+                     <ul>
+                         <li><a href="./index.html">Home</a></li>
+                         <li><a href="./about.html">About</a></li>
+                         <li><a href="./movies.html">Movies</a></li>
+                         <li><a href="./blog.html">Blog</a></li>
+                         <li><a href="./ourteam.html">Ourteam</a></li>
+                         <li><a href="./contact.html">Contact</a></li>
+                         <li><a href="./fag.html">Fag</a></li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+        </div>
+     </header>
+    
+    <main>
+        <section id="blog">
+            <div class="container">
+              <div class="blog_text">
+                  <h3>Blog Single</h3>
+                  <p><a href="./index.html">Home<i class="fa-solid fa-angles-right"></i></a>Blog Single</p>
+              </div>
+            </div>
+          </section>
+          <section id="blog_detail">
+             <div class="container">
+                <div class="main_detail">
+                <div id="detail">
+
+                </div>
+                <div class="blog_right">
+                    <div class="search">
+                        <h2>Search</h2>
+                        <form action="">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit">Submit</button>
+                          </form>
+                    </div>
+                    <div class="category">
+                        <h2>Category</h2>
+                        <div class="category_item">
+                            <a href=""><span><i class="fa-solid fa-arrow-right"></i>Avards</span><span>(10)</span></a>
+                            <a href=""><span><i class="fa-solid fa-arrow-right"></i>Box Office</span><span>(15)</span></a>
+                            <a href=""><span><i class="fa-solid fa-arrow-right"></i>Movie Trailers</span><span>(25)</span></a>
+                            <a href=""><span><i class="fa-solid fa-arrow-right"></i>Films Rewiews</span><span>(20)</span></a>
+                            <a href=""><span><i class="fa-solid fa-arrow-right"></i>Global News</span><span>(30)</span></a>
+                        </div>
+                    </div>
+                    <div class="recent_posts">
+                        <h2>Recent Post</h2>
+                        <div class="post_box">
+                            <figure>
+                                <img src="https://live.themewild.com/moplay/assets/img/blog/bs-3.jpg" alt="">
+                            </figure>
+                            <div class="post_text">
+                                <h3>There are many variations passages available</h3>
+                                <span><i class="fa-regular fa-clock"></i>Nov 04, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post_box">
+                            <figure>
+                                <img src="https://live.themewild.com/moplay/assets/img/blog/bs-1.jpg" alt="">
+                            </figure>
+                            <div class="post_text">
+                                <h3>There are many variations passages available</h3>
+                                <span><i class="fa-regular fa-clock"></i>Nov 04, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post_box">
+                            <figure>
+                                <img src="https://live.themewild.com/moplay/assets/img/blog/bs-2.jpg" alt="">
+                            </figure>
+                            <div class="post_text">
+                                <h3>There are many variations passages available</h3>
+                                <span><i class="fa-regular fa-clock"></i>Nov 04, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow_us">
+                        <h2>Follow Us</h2>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/?locale=az_AZ"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.google.co.uk/"><i class="fa-solid fa-globe"></i></a>
+                            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="popular_tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tag_box">
+                            <span>Movies</span>
+                            <span>Streaming</span>
+                            <span>Action</span>
+                            <span>Drama</span>
+                            <span>Modern</span>
+                            <span>Offer</span>
+                            <span>Films</span>
+                            <span>Animations</span>
+                            <span>Crime</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+             </div>
+          </section>
+
+   
+    </main>
+    <footer>
+        <div class="container">
+            <div class="first">
+                <figure>
+                    <a href="./index.html">
+                        <img src="https://live.themewild.com/moplay/assets/img/logo/logo.png" alt="">
+                    </a>
+                </figure>
+                <p>We are many variations of passages available the majority have suffered alteration in some form by injected humour words believable.</p>
+            </div>
+            <div class="second">
+                <h3>Moplay</h3>
+                <ul>
+                    <li><a href="./about.html"><i class="fa-solid fa-check"></i>About Us</a></li>
+                    <li><a href=""><i class="fa-solid fa-check"></i>Testiminionals</a></li>
+                    <li><a href="./contact.html"><i class="fa-solid fa-check"></i>Contact Us</a></li>
+                    <li><a href=""><i class="fa-solid fa-check"></i>Terms of Service</a></li>
+                    <li><a href=""><i class="fa-solid fa-check"></i>Privacy Policy</a></li>
+                </ul>
+            </div>
+             <div class="second">
+                <h3>Genres</h3>
+                <ul>
+                    <li><a href="./movies.html"><i class="fa-solid fa-check"></i>Action</a></li>
+                    <li><a href="./movies.html"><i class="fa-solid fa-check"></i>Biography</a></li>
+                    <li><a href="./movies.html"><i class="fa-solid fa-check"></i>Documentary</a></li>
+                    <li><a href="./movies.html"><i class="fa-solid fa-check"></i>Adventure</a></li>
+                    <li><a href="./movies.html"><i class="fa-solid fa-check"></i>Talk Show</a></li>
+                </ul>
+             </div>
+             <div class="second">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="./contact.html"><i class="fa-solid fa-check"></i>Help Center</a></li>
+                    <li><a href="./fag.html"><i class="fa-solid fa-check"></i>Fag's</a></li>
+                    <li><a href="./movies.html"><i class="fa-solid fa-check"></i>My Accaunt</a></li>
+                    <li><a href="./movies.html"><i class="fa-solid fa-check"></i>Request Movie</a></li>
+                    <li><a href="./contact.html"><i class="fa-solid fa-check"></i>Support</a></li>
+                </ul>
+             </div>
+             <div class="three">
+                <h3>Newsletter</h3>
+                <p>Subscribe Our Newsletter To Get Latest Update And News</p>
+                <form >
+                   <input type="text" placeholder="Your Email" required>
+                   <button><i class="fa-brands fa-telegram"></i>Subscribe Now</button>
+                </form>
+             </div>
+
+        </div>
+    </footer>
+    <script src="./assets/js/blog_detail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>   
+</body>
+</html>

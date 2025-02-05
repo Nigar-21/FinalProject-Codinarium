@@ -1,0 +1,275 @@
+#blog{
+    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://live.themewild.com/moplay/assets/img/breadcrumb/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .blog_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    h3{
+               font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+    }
+    p{
+               font-size: 20px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #29B6F6;
+                a{
+                    color: #FFFFFF;
+                    &:hover{
+                        color: #29B6F6;
+                    }
+ 
+                }
+    }
+    }
+}
+#myblog{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #06090F; 
+
+    .main_blog{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        #load{
+            max-width:30%;
+            padding: 15px;
+            background-color: #29B6F6;
+            font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                border-radius: 20px;
+                @include tablet(){
+                   font-size: 10px;
+                }
+                @include mobile(){
+                    font-size: 10px;
+                }
+        }
+        .blog_head{
+            max-width: 100%;
+            max-height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            @include tablet(){
+                max-width: 100%;
+            }
+            @include mobile(){
+                max-width: 100%;
+
+            }
+            .one{
+                font-size: 20px;
+                color: #29B6F6;
+                font-weight: 600;
+                line-height: 1.2;
+                letter-spacing: 2px;
+            }
+            h2{
+                font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                @include tablet(){
+                  font-size: 20px;
+                }
+                @include mobile(){
+                  font-size: 15px;
+                }
+            }
+            .two{
+                font-size: 28px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                letter-spacing: 3px;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #29B6F6;
+                @include tablet(){
+                    font-size: 20px;
+                  }
+                  @include mobile(){
+                    font-size: 15px;
+                  }
+
+            }
+}}}
+#contact_page{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #06090F;
+    .main_page{
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        @include tablet(){
+            display: flex;
+            flex-wrap: wrap;
+        }
+        figure{
+            max-width: 40%;
+            max-height: 100%;
+            overflow: hidden;
+            border-radius: 20px 50% 20px 20px;
+            img{
+                max-width: 100%;
+                max-width: 100%;
+                overflow: hidden;
+            }
+        }
+        form{
+            max-width: 50%;
+            max-height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h3{
+                font-size: 25px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                letter-spacing: 2px; 
+            }
+            p{
+                font-size: 17px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 1.2;
+                color: #757f95;
+                text-transform: uppercase;
+                letter-spacing: 2px; 
+            }
+            .head_inp{
+                max-width: 100%;
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+                input{
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+                    border: 1px solid #757f95;
+                    background-color: #131722;
+                    &::placeholder{
+                        font-size: 17px;
+                        font-family: "Arima", system-ui;
+                        font-optical-sizing: auto;
+                        font-weight: 500;
+                        font-style: normal;
+                        line-height: 1.2;
+                        color: #757f95;
+                        text-transform: uppercase;
+                        letter-spacing: 2px; 
+                    }
+                }
+            }
+            input{
+                width: 100%;
+                padding: 15px;
+                border-radius: 10px;
+                border: 1px solid #757f95;
+                background-color: #131722;
+                &::placeholder{
+                    font-size: 17px;
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 500;
+                    font-style: normal;
+                    line-height: 1.2;
+                    color: #757f95;
+                    text-transform: uppercase;
+                    letter-spacing: 2px; 
+                }
+            }
+            textarea{
+                width: 100%;
+                padding: 15px;
+                border-radius: 10px;
+                border: 1px solid #757f95;
+                background-color: #131722;
+                &::placeholder{
+                    font-size: 17px;
+                    font-family: "Arima", system-ui;
+                    font-optical-sizing: auto;
+                    font-weight: 500;
+                    font-style: normal;
+                    line-height: 1.2;
+                    color: #757f95;
+                    text-transform: uppercase;
+                    letter-spacing: 2px; 
+                }
+            }
+            button{
+                max-width: 40%;
+                padding: 15px;
+                border: none;
+                background-color: #29B6F6;
+                border-radius: 10px;
+                font-size: 17px;
+                font-family: "Arima", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                letter-spacing: 2px; 
+            }
+        }
+    }
+}
